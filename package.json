@@ -1,0 +1,21 @@
+{
+  "name": "segundoavance",
+  "version": "1.0.0",
+  "description": "Segundo Avance de proyecto final de la materia de temas emergentes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ProyectoTopicoWeb"
+  },
+  "keywords": [
+    "0"
+  ],
+  "author": "Ignacio Campos, Jesus Grajeda y Ariana Espinoza",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
