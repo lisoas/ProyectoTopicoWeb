@@ -8,10 +8,10 @@ const options = {
   };
 
 function insertData(){
-    const sql= "INSERT INTO producto (id,nombre,precio) \
+    const sql= "INSERT INTO productos (id,nombre,precio) \
     values ('738292','Shampoo Pantene Pro V control caída 700 ml','105.00');";
-    const sql= "INSERT INTO supermercado(id,nombre) values ('820493','Walmart')";
-    const sql = "INSERT INTO consumidor (id,nombre) values ('912749','Ernesto Castro')";
+     sql= "INSERT INTO supermercado(id,nombre) values ('820493','Walmart')";
+     sql = "INSERT INTO consumidor (id,nombre) values ('912749','Ernesto Castro')";
 
     connection.query(sql,(err,result) => {
         if(err){
@@ -26,7 +26,7 @@ function insertData(){
 const selectData = () => {
     const id = 2;
     const columns = ["nombre", "precio"];
-    const table = "producto"
+    const table = "productos"
     const sql = "SELECT ?? FROM ?? WHERE id = ?";
     const values = [columns, table, id];
     const queryOptions = { sql, values };
