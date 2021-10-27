@@ -16,6 +16,11 @@
   "author": "Ignacio Campos, Jesus Grajeda y Ariana Espinoza",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
     "mysql": "^2.18.1"
   }
 }
