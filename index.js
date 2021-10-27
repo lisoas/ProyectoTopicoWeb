@@ -52,6 +52,19 @@ const selectData = () => {
     selectData();
   });
 
+  const express = require("express");
+  const ruteador = require("./ruteador");
+  const app = express();
+  const bodyParser = require('body-parser');
+
+  app.use(bodyParser.json());
+  app.use("/servicio",ruteador);
+  app.use(manejadorErrores);
+
+app.use(logErrors);
+app.use(clientErrorHandler);
+app.use(errorHandler);
+
 
 
 
